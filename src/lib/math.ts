@@ -19,3 +19,7 @@ export function unlockedAtMonth(
   const progress = Math.min(1, elapsed / vestMonths);
   return tokens * progress;
 }
+
+export function sumAllocationPercents(allocations: Allocation[]): number {
+  return allocations.reduce((sum, item) => sum + item.percent, 0);
+}
