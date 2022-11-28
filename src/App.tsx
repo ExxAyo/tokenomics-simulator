@@ -4,6 +4,7 @@ import { AllocationTable } from './components/AllocationTable';
 import { SupplyChart } from './components/SupplyChart';
 import { PRESETS, DEFAULT_ALLOCATIONS } from './lib/presets';
 import { exportScheduleCsv, simulateTokenomics } from './lib/simulate';
+import { sumAllocationPercents } from './lib/math';
 import type { Allocation } from './types';
 
 export default function App() {
@@ -48,7 +49,7 @@ export default function App() {
     URL.revokeObjectURL(url);
   }
 
-  const allocationTotal = allocations.reduce((sum, item) => sum + item.percent, 0);
+  const allocationTotal = sumAllocationPercents(allocations);
 
   return (
     <div className="app">
@@ -95,6 +96,8 @@ export default function App() {
           </div>
         </div>
       </div>
+
+      <footer className="note">Linear vesting only. Verify numbers before publishing a token plan.</footer>
     </div>
   );
 }
