@@ -28,3 +28,8 @@ npm run dev
 ## License
 
 MIT
+
+## Notes
+
+- Numbers are rounded in CSV export
+- Chart uses monthly linear unlock steps
