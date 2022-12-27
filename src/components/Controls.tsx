@@ -39,7 +39,7 @@ export function Controls({
       </div>
 
       <div className="field-row">
-        <label htmlFor="tge">TGE unlock (%)</label>
+        <label htmlFor="tge">TGE unlock (% of supply)</label>
         <input
           id="tge"
           type="number"
