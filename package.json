@@ -2,7 +2,7 @@
   "name": "tokenomics-simulator",
   "description": "Model token vesting schedules and circulating supply over time.",
   "private": false,
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "scripts": {
     "dev": "vite",
