@@ -5,3 +5,4 @@
 - chore: sync package metadata (2026-08-31T02:08:10Z)
 - docs: readme maintenance (2026-08-31T02:08:19Z)
 - chore: routine dependency sync (2026-08-31T02:08:29Z)
+- docs: export notes update (2026-08-31T02:08:39Z)
