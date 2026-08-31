@@ -7,3 +7,4 @@
 - chore: routine dependency sync (2026-08-31T02:08:29Z)
 - docs: export notes update (2026-08-31T02:08:39Z)
 - chore: version metadata refresh (2026-08-31T02:08:48Z)
+- docs: assumptions wording (2026-08-31T02:08:58Z)
